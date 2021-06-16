@@ -7215,6 +7215,10 @@ textarea.form-control-lg {
   font-family: var(--bs-font-monospace) !important;
 }
 
+.skills-icon {
+    font-size: 5rem;
+}
+
 .fs-1 {
   font-size: calc(1.375rem + 1.5vw) !important;
 }
