@@ -1,3 +1,7 @@
+### Photo Credits:
+Masthead image credit: Photo by <a href="https://unsplash.com/@dhillssr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dwayne Hills</a> on <a href="https://unsplash.com/s/photos/austin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+### Notes:
 Removed SB Forms from index.html...
 ```js
 // goes above:
