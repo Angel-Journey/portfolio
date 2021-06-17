@@ -2,7 +2,7 @@
 Masthead image credit: Photo by <a href="https://unsplash.com/@dhillssr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dwayne Hills</a> on <a href="https://unsplash.com/s/photos/austin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 ### Notes:
-Removed SB Forms from index.html...
+Removed SB Forms from index.html:
 ```js
 // goes above:
 // <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -61,6 +61,54 @@ Removed SB Forms from index.html...
             <!-- Submit Button-->
             <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
         </form>
+    </div>
+</div>
+```
+
+Removed Start Bootstrap's portfolio section:
+```js
+<!-- Portfolio-->
+<div id="portfolio">
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <div class="col-lg-6 col-sm-6">
+                <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
+                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">Category</div>
+                        <div class="project-name">Project Name</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Project Name">
+                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">Category</div>
+                        <div class="project-name">Project Name</div>
+                    </div>
+                </a>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-lg-6 col-sm-6">
+                <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Project Name">
+                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">Category</div>
+                        <div class="project-name">Project Name</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Tika-Taka-Toe">
+                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">Front End Web App</div>
+                        <div class="project-name">Tika-Taka-Toe</div>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 ```
