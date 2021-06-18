@@ -11113,14 +11113,19 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
-  color: #fff;
+  font-size: 22px;
+  color: white;
   font-weight: 600;
+}
+.portfolio .portfolio-wrap .portfolio-info i {
+  color: white;
+  font-weight: 200;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #ffffff;
-  font-size: 14px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
   text-transform: uppercase;
   padding: 0;
   margin: 0;
@@ -11140,7 +11145,7 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #bf43bf;
+  color: rgba(244, 98, 58, 0.9);
 }
 
 .portfolio .portfolio-wrap:hover::before {
