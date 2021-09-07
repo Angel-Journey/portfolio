@@ -11011,6 +11011,10 @@ header.masthead h1, header.masthead .h1 {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio-section-title {
+    padding: 4rem 0;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
